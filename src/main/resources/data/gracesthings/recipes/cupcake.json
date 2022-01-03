@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "WEW",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:green_dye"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "gracesthings:cupcake",
+    "count": 1
+  }
+}

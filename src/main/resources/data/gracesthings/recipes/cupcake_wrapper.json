@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "P P",
+    " P "
+  ],
+  "key": {
+    "D": {
+      "tag": "minecraft:pink_dye"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "gracesthings:cupcake_wrapper",
+    "count": 2
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GDG",
+    "PPP",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:green_dye"
+    },
+    "G": {
+      "tag": "gracesthings:expensive_ingot"
+    },
+    "D": {
+      "tag": "gracesthings:expensive_gem"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "gracesthings:money",
+    "count": 4
+  }
+}

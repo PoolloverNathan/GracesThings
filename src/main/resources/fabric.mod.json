@@ -3,10 +3,11 @@
   "id": "gracesthings",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Grace's Things",
+  "description": "Adds a bunch of random things, like dollars and cupcakes!",
   "authors": [
-    "Me!"
+    "GraceWondergirl",
+    "PoolloverNathan"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
