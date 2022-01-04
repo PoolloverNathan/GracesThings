@@ -33,7 +33,7 @@ public class Helpers {
         return registerBlock(name, FabricBlockSettings.of(mat).hardness(hardness));
     }
     public static Block registerBlock(String name) {
-        return registerBlock(name, tweaker.tweak(FabricBlockSettings.of(mat).hardness(hardness)));
+        return registerBlock(name, Material.STONE, 2);
     }
     public static Block registerBlock(String name, FabricBlockSettings settings) {
         return registerBlock(name, new Block(settings));
