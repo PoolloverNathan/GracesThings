@@ -29,8 +29,9 @@ public class GracesThings implements ModInitializer {
 
 		registerItem("money");
 		registerItem("cupcake_wrapper", ItemGroup.MATERIALS);
-		registerItem("cupcake", new FoodRemainderItem(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(2).saturationModifier(3).snack().build()), DIRTY_CUPCAKE_WRAPPER));
-		registerItem("trader_beacon", new TraderBeacon(new FabricItemSettings().group(ItemGroup.TOOLS)));
+		registerItem("cupcake", new FoodRemainderItem(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(2).saturationModifier(3).build()), DIRTY_CUPCAKE_WRAPPER));
+		registerItem("iced_cupcake", new FoodRemainderItem(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(6).build()), DIRTY_CUPCAKE_WRAPPER));
+		registerItem("trader_gem", new TraderBeacon(new FabricItemSettings().group(ItemGroup.TOOLS)));
 
 		LOGGER.info("Hello Fabric world!");
 
